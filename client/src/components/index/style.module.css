@@ -1,0 +1,79 @@
+.page {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  min-height: 100vh;
+}
+.title {
+  font-size: 50px;
+  font-weight: 700;
+}
+.btn {
+  background-color: rgb(255, 255, 255);
+  padding: 10px 20px;
+  border: solid 1px rgb(201, 201, 201);
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: 600;
+  color: black;
+  cursor: pointer;
+}
+.btn {
+  background-color: rgb(0, 0, 0);
+  padding: 10px 25px;
+  font-size: 22px;
+  color: rgb(255, 255, 255);
+}
+.row {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+.index {
+  background-color: rgb(255, 255, 255);
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  border-radius: 10px;
+  box-shadow: var(--shadow);
+  border: solid 1px rgb(201, 201, 201);
+}
+.radioBox {
+  display: flex;
+  width: 320px;
+  gap: 15px;
+  cursor: pointer;
+}
+.radioBox input {
+  min-width: 20px;
+  aspect-ratio: 1;
+}
+.radioBox .text {
+  font-size: 27px;
+}
+.preprocess {
+  background-color: rgb(255, 255, 255);
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  border-radius: 10px;
+  box-shadow: var(--shadow);
+  border: solid 1px rgb(201, 201, 201);
+}
+.preprocessBox {
+  display: flex;
+  width: 220px;
+  gap: 15px;
+  cursor: pointer;
+}
+.preprocessBox input {
+  min-width: 20px;
+  aspect-ratio: 1;
+}
+.preprocessBox .text {
+  font-size: 27px;
+}
